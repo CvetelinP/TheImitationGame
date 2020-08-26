@@ -39,6 +39,8 @@ namespace TheImitationGame
                     string movedIndex = commandLine.Substring(0, Index);
 
                     commandLine=commandLine.Insert(commandLine.Length, movedIndex).Substring(3,5);
+
+                    
        
                 }
 
